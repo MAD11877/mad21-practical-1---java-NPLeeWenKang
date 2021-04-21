@@ -18,7 +18,6 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Your Number (Int) is: ");
     int number = in.nextInt();
     for(int i = number; i>0;i--){
       for(int n = i; n>0;n--){

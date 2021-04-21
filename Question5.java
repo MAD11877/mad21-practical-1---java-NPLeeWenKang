@@ -27,7 +27,6 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Number of integers is: ");
     int numberOfInt = in.nextInt();
     ArrayList<Integer> intList = new ArrayList<>();
     int highestInt = 0;
