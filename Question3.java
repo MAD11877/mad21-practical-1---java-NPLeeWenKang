@@ -11,6 +11,9 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Your Number (Int) is: ");
+    int number = in.nextInt();
+    int numberMulitplied = number*number;
+    System.out.println("Your Number is: "+numberMulitplied);
   }
 }
