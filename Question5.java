@@ -31,12 +31,20 @@ public class Question5
     ArrayList<Integer> intList = new ArrayList<>();
     int highestInt = 0;
     int highestOccurrence = 0;
+    for(int i : intList){
+      System.out.println(i);
+    }
     for(int i = 0; i<numberOfInt;i++){
       int intInput = in.nextInt();
       intList.add(intInput);
       int occurence = 0;
-      for(int a = 0; a<intList.size();a++){
-        if (intList.get(a) == intInput){
+      // for(int a = 0; a<intList.size();a++){
+      //   if (intList.get(a) == intInput){
+      //     occurence++;
+      //   }
+      // }
+      for(int a : intList){
+        if (a == intInput){
           occurence++;
         }
       }
